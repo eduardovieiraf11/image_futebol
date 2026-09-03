@@ -4,11 +4,12 @@ Repositório de imagens para aplicar no FlaNews diariamente, organizado por cate
 
 ## Estrutura
 
-- `times/` — imagens de times (elencos, fotos de grupo, etc.)
-- `jogadores/` — fotos individuais de jogadores
-- `logos/` — logos de clubes, competições e marcas
-- `escudos/` — escudos dos clubes
+- `times/<NomeDoTime>/escudo/` — escudo do clube
+- `times/<NomeDoTime>/logo/` — logo do clube
+- `times/<NomeDoTime>/jogadores/` — fotos individuais de jogadores do clube
 - `banners/` — banners e artes para posts
 - `posts/` — artes finais prontas para publicação
 
-Basta adicionar as imagens na pasta correspondente. As tarefas agendadas podem referenciar os arquivos diretamente pelo caminho no repositório.
+Times cadastrados: Athletico Paranaense, Atlético Mineiro, Bahia, Botafogo, Chapecoense, Corinthians, Coritiba, Cruzeiro, Flamengo, Fluminense, Grêmio, Internacional, Mirassol, Palmeiras, RB Bragantino, Remo, Santos, São Paulo, Vasco, Vitória.
+
+Basta adicionar as imagens na subpasta correspondente do time. As tarefas agendadas podem referenciar os arquivos diretamente pelo caminho no repositório.
